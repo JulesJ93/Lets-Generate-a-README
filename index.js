@@ -44,6 +44,62 @@ const questions = () => {
             }
     
         },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What are the installaitons instructions for project',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your installation details');
+                    return false; 
+                }
+            }
+    
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'How do we use your application',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please tells how we use this application');
+                    return false; 
+                }
+            }
+    
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address!');
+                    return false; 
+                }
+            }
+    
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your github address?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your github address');
+                    return false; 
+                }
+            }
+    
+        },
     
 
 // TODO: Create a function to write README file
