@@ -2,7 +2,7 @@
 // Required: Inquirer Package | https://www.npmjs.com/package/inquirer/v/8.2.4 //
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./generateMarkdown.js");
 
 // Array of questions for user input, info then put into generated README.md file //
 const questions = [
